@@ -1,0 +1,261 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "General Sans", sans-serif;
+}
+
+.hero {
+  position: relative;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/seahorse-arizona-lower-antelope-canyon.jpg);
+  background-size: cover;
+  color: #fada5e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+button {
+  color: #fada5e;
+  background-color: #68866e;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #68866e7f; 
+}
+
+
+/* ------------------------------------------------------------------------Founder Section ---------------------------------------------*/
+
+
+.founder-section {
+    color: #68866e;
+  background-color: #fada5e;
+}
+
+.foundercont {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap !important;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.aboutfounder {
+    background-color: rgba(128, 128, 128, 0.435);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.stock {
+    width: 30vw;
+    border-radius: 10px;
+}
+
+/* ------------------------------------------------------------------------Founder Section ---------------------------------------------*/
+/* ------------------------------------------------------------------------Why should you go ahead Section ---------------------------------------------*/
+.goahead-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/OR4CEK0.jpg);    background-size: cover;
+    color: #fada5e;
+    padding: 20px;
+
+}
+
+.whytrustus h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.whytrustus li {
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+}
+
+.icons {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #fada5e;
+/*     margin: 58px 50px;
+ */}
+
+.logos {
+    background-color: rgba(128, 128, 128, 0.52);
+    border: grey 2px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+i {
+    font-size: 4rem;
+}
+
+
+/* ------------------------------------------------------------------------Why should you go ahead Section ---------------------------------------------*/
+/* ------------------------------------------------------------------------Countdown Section ---------------------------------------------*/
+.countdown {
+    color: #68866e;
+    background-color: #fada5e;
+    padding: 50px 0; 
+    text-align: center; 
+  }
+  
+  .countdown h2 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  
+  #timer {
+    color: grey;
+    font-size: 2.8rem;
+    font-weight: 900;
+  }
+  
+  .btncont {
+    display: inline-block; 
+    margin-top: 20px; 
+  }
+  
+  .btncont a {
+    background-color: grey;
+    border: 2px solid grey;
+    padding: 10px 40px; 
+    color: #fada5e;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .btncont a:hover {
+    background-color: transparent;
+    color:#68866e ;
+    transition: background-color 0.5s;
+  }
+  
+
+
+
+/* ------------------------------------------------------------------------Countdown Section ---------------------------------------------*/
+/* ------------------------------------------------------------------------CTA Section ---------------------------------------------*/
+
+.cta-section {
+    background-image: linear-gradient(135deg, #68866e 0%, #fada5e 50%, #a0a0a0 100%);
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  .cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .cta-content h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    background-color: #ffffff;
+    color: #68866e;
+    border: 2px solid #ffffff;
+    padding: 18px 40px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+/* ------------------------------------------------------------------------CTA Section ---------------------------------------------*/
+/* ------------------------------------------------------------------------Popup form Section ---------------------------------------------*/
+#slide-in-form {
+    position: fixed;
+    bottom: -400px;
+    left: 25%; 
+    transform: translateX(-50%); 
+    max-width: 500px; 
+    width: calc(100% - 40px); 
+    background-color: #fadb5e78;
+    color: #68866e;
+    transition: bottom 0.5s ease;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+  }
+  
+  #slide-in-form form {
+    padding: 20px;
+  }
+  
+  #slide-in-form label,
+  #slide-in-form input,
+  #slide-in-form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #slide-in-form button {
+    background-color: #68866e;
+    color: #fada5e;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+
+  #close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #68866e; /* Adjust color as needed */
+    z-index: 1; /* Ensure button is above other content */
+    border-radius: 50%;
+  }
+  
+  #close-button:hover {
+    color: #333; /* Adjust color on hover as needed */
+  }
+/* ------------------------------------------------------------------------Popup form Section ---------------------------------------------*/
