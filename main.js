@@ -27,7 +27,7 @@ window.onload = function () {
 // Slide-in Form
 setTimeout(function() {
   document.getElementById('slide-in-form').style.bottom = '0';
-}, 1000);
+}, 15000);
 
 
 

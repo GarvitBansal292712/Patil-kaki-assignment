@@ -216,7 +216,7 @@ i {
     max-width: 500px; 
     width: calc(100% - 40px); 
     background-color: #fadb5e78;
-    color: #68866e;
+    color: #ffffff;
     transition: bottom 0.5s ease;
     display: flex; 
     justify-content: center; 
