@@ -14,7 +14,7 @@ function startTimer(duration, display) {
     if (--timer < 0) {
       timer = duration;
     }
-  }, 1000);
+  }, 15000);
 }
 
 window.onload = function () {

@@ -33,13 +33,14 @@
   margin-bottom: 40px;
 }
 
-button {
+.btn1 {
   color: #fada5e;
   background-color: #68866e;
   border: none;
   padding: 15px 30px;
   font-size: 18px;
   cursor: pointer;
+  border-radius: 10px!important;
   transition: background-color 0.3s ease;
 }
 
@@ -71,6 +72,7 @@ button:hover {
     margin: 10px 10px;
 }
 
+
 .stock {
     width: 30vw;
     border-radius: 10px;
@@ -88,7 +90,7 @@ button:hover {
 
 .whytrustus h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -168,7 +170,7 @@ i {
 
 .cta-section {
     background-image: linear-gradient(135deg, #68866e 0%, #fada5e 50%, #a0a0a0 100%);
-    color: #ffffff;
+    color: grey;
     text-align: center;
     padding: 60px 0;
   }
@@ -209,7 +211,7 @@ i {
 #slide-in-form {
     position: fixed;
     bottom: -400px;
-    left: 25%; 
+    left: 50%; 
     transform: translateX(-50%); 
     max-width: 500px; 
     width: calc(100% - 40px); 
